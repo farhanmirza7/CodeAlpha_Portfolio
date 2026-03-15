@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Frontend Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="glass">
+            <div class="logo">Dev<span>Portfolio</span></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Creative <span>Frontend</span> Developer</h1>
+            <p>Computer Science Student & Intern at CodeAlpha. Building functional, beautiful web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Arsenal</h2>
+        <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            <span>Git/GitHub</span><span>VS Code</span><span>Responsive Design</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Internship Projects</h2>
+        <div class="project-grid">
+            
+            <div class="project-grid">
+    <div class="project-card glass">
+        <i class="fas fa-calculator"></i>
+        <h3>Advanced Calculator</h3>
+        <p>A sleek calculator with keyboard support and dark mode styling.</p>
+        <a href="https://github.com/farhanmirza7/CodeAlpha_Calculator" target="_blank" class="project-link">View Repository →</a>
+    </div>
+
+    <div class="project-card glass">
+        <i class="fas fa-images"></i>
+        <h3>Interactive Gallery</h3>
+        <p>Fully responsive image grid featuring a custom Lightbox viewer.</p>
+        <a href="https://github.com/farhanmirza7/CodeAlpha_ImageGallery" target="_blank" class="project-link">View Repository →</a>
+    </div>
+
+    <div class="project-card glass">
+        <i class="fas fa-music"></i>
+        <h3>Music Player</h3>
+        <p>Modern audio player with progress tracking and volume controls.</p>
+        <a href="https://github.com/farhanmirza7/CodeAlpha_MusicPlayer" target="_blank" class="project-link">View Repository →</a>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+<section id="contact" class="contact-section">
+    <h2>Get In Touch</h2>
+    <div class="contact-container glass">
+        <form action="mailto:1156farhan@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Farhan Ahmad Baig" required>
+            <input type="email" name="email" placeholder="1156farhan@gmail.com" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/farhanmirza7" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</section>
+</html>
